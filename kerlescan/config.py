@@ -12,3 +12,5 @@ hsp_svc_hostname = os.getenv("HSP_SVC_URL", "http://hsp_svc_url_is_not_set")
 prometheus_multiproc_dir = os.getenv("prometheus_multiproc_dir", None)
 
 path_prefix = os.getenv("PATH_PREFIX", "/api/")
+
+bypass_rbac = os.getenv("BYPASS_RBAC", None)
